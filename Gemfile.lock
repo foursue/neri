@@ -1,0 +1,47 @@
+GIT
+  remote: git://github.com/foursue/ruboty-fizzbuzz.git
+  revision: 93845daba47c2cf885cd22cadcd77378d9356774
+  specs:
+    ruboty-fizzbuzz (0.1.2)
+      ruboty
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.6)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    dotenv (2.1.1)
+    i18n (0.7.0)
+    json (1.8.3)
+    mem (0.1.5)
+    minitest (5.8.4)
+    ruboty (1.2.2)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
+    ruboty-slack (0.1.12)
+      ruboty (>= 1.0.4)
+      xrc (>= 0.1.8)
+    slop (4.3.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    xrc (0.1.8)
+      activesupport
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruboty
+  ruboty-fizzbuzz!
+  ruboty-slack
+
+BUNDLED WITH
+   1.11.2
